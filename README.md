@@ -22,3 +22,6 @@ Project holds files to setup shell prompt with same theme as in vim when using v
     ```
     vim -c 'PromptlineSnapshot! ~/.shell_prompt.sh' -c ':q' && source ~/.shell_prompt.sh
     ```
+
+*Note: Please do not waste time with WSL terminal - with Windows Terminals (CMD/PowerShell),
+you will not be able to view UTF-8 Unicode characters and colors there.*
